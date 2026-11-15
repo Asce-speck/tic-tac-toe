@@ -1,0 +1,75 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    
+    
+}
+.game-board{
+    background-color: black;
+    height: 450px;
+    width: 450px;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2px;
+    padding: 5px;
+    box-sizing: border-box;
+
+    
+
+}
+
+.card{
+    display: grid;
+    place-items: center;
+    background-color: white;
+    height: 140px;
+    width: 140px; 
+    background-image: url(images/image.png);
+    background-size: cover;
+    color: aliceblue;
+}
+.player2{
+background-color: blue;
+padding: 10px;
+border-radius: 10px;
+font-size: large;
+
+}
+.player1{
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: large;
+    width: 200px;
+}
+.results{
+    color:aliceblue;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: green;
+    width: 350px;
+}
+button{
+    background-color: green;
+    padding: 10px;
+    border-radius: 5px;
+}
+.center{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.player-buttons{
+    align-items: center;
+    justify-content: center;
+}
+

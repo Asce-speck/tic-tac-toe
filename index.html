@@ -1,0 +1,58 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset = utf-8>
+        <title>tic tac toe</title>
+        <link href="style.css" rel="stylesheet">
+        <script src="script.js" defer></script>
+    </head>  
+    <body>
+        
+        <div>
+            <div>
+                <label for="player1">player 1</label>
+                <input type="text" placeholder="player1" class="player1" required>
+            </div>
+            <svg viewBox="0 0 24 24" width="400" height="400"><line x1="6" y1="6"
+                                                              x2="18" y2="18" stroke="red"
+                                                              stroke-width="2"></line>
+                                                              <line x1="18" y1="6"
+                                                              x2="6" y2="18"
+                                                              stroke="red" stroke-width="2"></line>
+                                                           </svg>
+                                                           </div>
+      <div class="center"> 
+        <div>
+            <div class="results">RESULTS</div>
+        </div> 
+        <div class="player-buttons"><button>ONE PLAYER</button>
+        <button>TWO PLAYERS</button></div>                                                   
+        <div class=" game-board">
+        <div class="card card-one"></div>
+        <div class="card card-two"></div>
+        <div class="card card-three"></div>
+        <div class="card card-four"></div>
+        <div class="card card-five"></div>
+        <div class="card card-six"></div>
+        <div class="card card-seven"></div>
+        <div class="card card-eight"></div>
+        <div class="card card-nine"></div>
+        </div> 
+        <button class="restart-button">RESTART</button> 
+     </div>    
+       <div class="second-player">
+        <label for="player2">player 2</label>
+        <input type="text" placeholder="player2" class="player2">
+       
+        <div lass="circle">
+            <div class="player1-result"></div>
+            <svg viewBox="0 0 24 24" width="400" height="400"> <circle
+                                                                cx="12" cy="12"
+                                                                r="10" stroke="blue" 
+                                                                stroke-width="2" fill="none">
+                                                               </circle>
+            </svg>
+        </div>
+        </div>
+    </body>
+</html>
